@@ -1,0 +1,33 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {int sum=0;
+      int min,min2;
+      
+      Scanner sc=new Scanner(System.in);
+      int wat=sc.nextInt();
+      
+      if(wat<=100){
+        sum=100*15;
+        System.out.println(sum);
+      }
+
+      else if(wat>100 && wat<=200)
+        {
+          min2=wat-100;
+          sum=(100*15)+(min2*14);
+          System.out.println(sum);  
+        }
+        
+      else
+        {
+          min=wat-200;
+          sum=(100*15)+(100*14)+(min*12);
+          System.out.println(sum);
+        }
+    }
+}
