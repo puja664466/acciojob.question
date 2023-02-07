@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+      public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double s = input.nextDouble();
+        System.out.print(+ hexagonArea(s)+"\n");
+    }
+    public static double hexagonArea(double s) {
+        return (6*(s*s))/(4*Math.tan(Math.PI/6));
+    }
+}
