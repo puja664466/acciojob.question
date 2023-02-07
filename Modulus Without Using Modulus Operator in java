@@ -1,0 +1,24 @@
+// Java program to find the remainder 
+// without using the % operator
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner X = new Scanner(System.in);
+
+    int num1 = 0;
+    int num2 = 0;
+    int rem = 0;
+
+
+    num1 = X.nextInt();
+
+    
+    num2 = X.nextInt();
+
+    rem = num1 - (num1 / num2) * num2;
+
+    System.out.print(rem);
+  }
+}
