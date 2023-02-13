@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		String txt ;
+		Scanner sc=new Scanner (System.in);
+		txt=sc.nextLine();
+//System.out.println(txt.toUpperCase());
+System.out.println(txt.toLowerCase());
+	}
+}
