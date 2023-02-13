@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main  
+ {  
+   public static void main (String args[])  
+    { float Fahrenheit, Celsius;  
+          
+	 Scanner sc=new Scanner (System.in);
+	Fahrenheit =sc.nextFloat();
+          Celsius  = ((Fahrenheit-32)*5)/9;  
+          System.out.println(+Celsius);  
+    }}  
